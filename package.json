@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "reload -b"
+    "dev": "reload -b",
+    "lint:html": "npx markuplint index.html"
   },
   "keywords": [],
   "author": "",
