@@ -1,0 +1,16 @@
+{
+  "name": "kenshu-html-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "reload -b"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "reload": "^3.2.1"
+  }
+}
