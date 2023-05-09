@@ -1,6 +1,5 @@
 #container {
   display: grid;
-  max-height: 1574px;
   width: 100vw;
   grid-template-rows: 75px 36px 263px auto 356px;
 }
@@ -12,8 +11,8 @@
 .header-inner {
   height: 100%;
   width: 78%;
+  max-width: 78%;
   margin: 0 auto;
-  /* background-color: gray; */
 }
 
 .main-header-content {
@@ -68,7 +67,10 @@
   width: 27rem;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
+  padding: 0 1.5rem;
+  font-size: 1.4rem;
 }
+
 .keyword-search-feild > button {
   display: flex;
   align-items: center;
