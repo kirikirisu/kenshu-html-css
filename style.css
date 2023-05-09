@@ -1,11 +1,17 @@
+:root {
+  --dark-blue: #24436f;
+  --secondary-dark-blue: #345584;
+  --light-blue: #3081c9;
+}
+
 #container {
   display: grid;
-  width: 100vw;
+  width: 1440px;
   grid-template-rows: 75px 36px 263px auto 356px;
 }
 
 #header {
-  background-color: #24436f;
+  background-color: var(--dark-blue);
 }
 
 .header-inner {
@@ -42,7 +48,7 @@
   align-items: center;
 }
 .media-company-login {
-  background-color: #345584;
+  background-color: var(--secondary-dark-blue);
   padding: 0.3rem 1.3rem;
   border-radius: 4px;
   margin-right: 1.5rem;
@@ -75,7 +81,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #3081c9;
+  background-color: var(--light-blue);
   height: 3.05rem;
   width: 3.05rem;
   border-top-right-radius: 4px;
