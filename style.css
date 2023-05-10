@@ -108,7 +108,26 @@
 }
 
 #category-header {
-  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#category-header > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 837px;
+  color: #294c7a;
+  font-size: 13px;
+}
+
+#category-header > ul {
+  gap: 20px;
+}
+
+.active-category {
+  font-weight: bold;
 }
 
 #ranking {
