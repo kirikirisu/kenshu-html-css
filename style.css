@@ -208,20 +208,16 @@
 .vertical-card-detail > time {
   font-size: 12px;
   color: #a2a2a2;
-  position: relative;
-  margin-left: 18px;
+  display: flex;
+  align-items: center;
 }
 
 .vertical-card-detail time::before {
-  position: absolute;
   content: url(https://prtimes.jp/src/images/prtimes-jp/html/icon_time.svg);
-  display: inline-block;
+  display: block;
   width: 14px;
   height: 14px;
-  top: 1px;
-  bottom: 0;
-  right: 0;
-  left: -17px;
+  margin-right: 5px;
 }
 
 .vertical-card-company-name {
