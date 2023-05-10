@@ -2,6 +2,7 @@
   --dark-blue: #24436f;
   --secondary-dark-blue: #345584;
   --light-blue: #3081c9;
+  --gray: #a2a2a2;
 
   --content-width: 1126px;
 }
@@ -234,14 +235,95 @@
   height: 1127px;
   width: var(--content-width);
   display: flex;
-  margin: 0 auto;
+  margin: 50px auto 0 auto;
 }
 
-.content-list {
-  background-color: red;
-  width: 70%;
+.press-release-list {
+  width: 778px;
   height: auto;
+  display: flex;
+  flex-direction: column;
 }
+.press-release-items > article > img {
+  object-fit: contain;
+  width: 100px;
+  height: 66px;
+}
+.press-release-list > h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #3b3b3b;
+  margin-bottom: 10px;
+}
+.press-release-items {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.press-release-items article {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #e4e4e4;
+  width: 380px;
+  height: 118px;
+  /* padding: 15px 0 13px; */
+}
+
+.press-release-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  width: 265px;
+}
+.press-release-detail > h3 {
+  font-size: 14px;
+  height: 66px;
+}
+
+.press-release-time-company {
+  color: var(--gray);
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  width: 100%;
+  overflow: hidden;
+}
+.press-release-time-company > p {
+  margin-left: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.press-release-time-company > time {
+  white-space: nowrap;
+  font-size: 12px;
+  color: var(--gray);
+  display: flex;
+  align-items: center;
+}
+.press-release-time-company time::before {
+  content: url(https://prtimes.jp/src/images/prtimes-jp/html/icon_time.svg);
+  display: block;
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+}
+
+.press-release-list > button {
+  align-self: center;
+  background-color: var(--light-blue);
+  width: 110px;
+  height: 38px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24);
+  margin-top: 30px;
+}
+
 .side {
   background-color: blue;
   width: 30%;
