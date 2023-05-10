@@ -161,8 +161,8 @@
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   position: relative;
+  overflow: hidden;
 }
 .vertical-card-rank-number {
   position: absolute;
@@ -196,8 +196,7 @@
 }
 
 .vertical-card-detail {
-  margin: 0 auto;
-  padding: 5px 0;
+  margin: 5px auto 0 auto;
   width: 161px;
   display: flex;
   flex-direction: column;
@@ -222,9 +221,13 @@
   font-size: 13px;
   color: #a2a2a2;
   overflow: hidden;
-  overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  line-height: 12px;
+}
+.vertical-card-pv {
+  font-size: 12px;
+  color: #a2a2a2;
 }
 
 #main {
