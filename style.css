@@ -122,8 +122,8 @@
   font-size: 13px;
 }
 
-#category-header > ul > * + * {
-  margin-left: 20px;
+#category-header > ul {
+  gap: 20px;
 }
 
 .active-category {
