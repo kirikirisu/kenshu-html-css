@@ -358,5 +358,53 @@
 }
 
 #footer {
-  background-color: darkorange;
+  background-color: #fafafa;
+  overflow: hidden;
+}
+.footer-inner {
+  width: var(--content-width);
+  margin: 0 auto;
+  display: flex;
+  margin-top: 45px;
+}
+.footer-inner h3 {
+  font-weight: 400;
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+.footer-inner li {
+  font-weight: 400;
+  font-size: 12px;
+  color: #797979;
+  line-height: 25px;
+}
+#footer hr {
+  border: 1px solid #e0e0e0;
+  width: var(--content-width);
+  margin: 20px auto 15px;
+}
+.prtimes-description-list {
+  margin-right: 130px;
+}
+.sub-recommend-description-list {
+  margin-top: 23px;
+  margin-right: 130px;
+  margin-left: 35px;
+}
+
+.lowest-footer {
+  font-size: 12px;
+  font-weight: 400;
+  color: #797979;
+  width: var(--content-width);
+  margin: 0 auto;
+}
+.lowest-footer > ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.lowest-footer > p {
+  margin-top: 15px;
 }
