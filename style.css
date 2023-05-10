@@ -140,6 +140,7 @@
   justify-content: center;
   height: 100%;
   width: var(--content-width);
+  gap: 8px;
 }
 
 #ranking > ol > li {
@@ -148,9 +149,6 @@
   background-color: #ffffff;
 }
 
-#ranking > ol > * + * {
-  margin-left: 8px;
-}
 .press-release-vertical-card {
   position: relative;
 }
