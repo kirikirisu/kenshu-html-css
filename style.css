@@ -120,9 +120,6 @@
   width: 837px;
   color: #294c7a;
   font-size: 13px;
-}
-
-#category-header > ul {
   gap: 20px;
 }
 
@@ -131,7 +128,106 @@
 }
 
 #ranking {
-  background-color: aqua;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#ranking > ol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: var(--content-width);
+  gap: 8px;
+}
+
+#ranking > ol > li {
+  height: 218px;
+  width: 181px;
+  background-color: #ffffff;
+}
+
+.press-release-vertical-card {
+  position: relative;
+}
+.press-release-vertical-card > img {
+  height: 100px;
+  width: 181px;
+  object-fit: contain;
+}
+#ranking > ol > li {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+.vertical-card-rank-number {
+  position: absolute;
+  top: 0;
+  width: 24px;
+  height: 24px;
+  background-color: var(--dark-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.vertical-card-title {
+  display: -webkit-box;
+  width: 100%;
+  height: 58px;
+  font-size: 13px;
+  overflow: hidden;
+  word-wrap: break-word;
+  line-break: normal;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  line-height: 18px;
+  margin: 0 auto;
+  padding: 5px 0;
+  width: 161px;
+}
+
+.vertical-card-detail {
+  margin: 5px auto 0 auto;
+  width: 161px;
+  display: flex;
+  flex-direction: column;
+}
+
+.vertical-card-detail > time {
+  font-size: 12px;
+  color: #a2a2a2;
+  display: flex;
+  align-items: center;
+}
+
+.vertical-card-detail time::before {
+  content: url(https://prtimes.jp/src/images/prtimes-jp/html/icon_time.svg);
+  display: block;
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+}
+
+.vertical-card-company-name {
+  font-size: 13px;
+  color: #a2a2a2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 12px;
+}
+.vertical-card-pv {
+  font-size: 12px;
+  color: #a2a2a2;
 }
 
 #main {
