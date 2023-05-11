@@ -232,10 +232,9 @@
 }
 
 #main {
-  height: 1127px;
   width: var(--content-width);
   display: flex;
-  margin: 50px auto 0 auto;
+  margin: 50px auto 100px auto;
   justify-content: space-between;
   gap: 35px;
 }
@@ -359,7 +358,6 @@
 
 #footer {
   background-color: #fafafa;
-  /* overflow: hidden; */
 }
 .footer-inner {
   width: var(--content-width);
