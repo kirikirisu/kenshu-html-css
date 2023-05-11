@@ -237,6 +237,7 @@
   display: flex;
   margin: 50px auto 0 auto;
   justify-content: space-between;
+  gap: 35px;
 }
 
 .press-release-list {
@@ -304,6 +305,7 @@
   display: flex;
   align-items: center;
 }
+
 .press-release-time-company time::before {
   content: url(https://prtimes.jp/src/images/prtimes-jp/html/icon_time.svg);
   display: block;
@@ -325,10 +327,34 @@
   margin-top: 30px;
 }
 
-.side {
-  background-color: blue;
-  width: 30%;
+.side-keyword-content {
+  width: 312px;
   height: auto;
+}
+.side-keyword-content > h2 {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.side-keyword-content > ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  gap: 10px 9px;
+}
+.side-keyword-content > ul > li {
+  background-color: #f1f1f1;
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 14px;
+  padding: 2px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.side-keyword-content > ul > li:last-child {
+  background-color: #ffffff;
+  border: 1px solid #f1f1f1;
 }
 
 #footer {
